@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap");
+
+/***********************************************/
+/*              Déco page général              */
+/***********************************************/
+/*Titre*/
+h1 {
+  text-align: center;
+  font-family: "Holtwood One SC", serif;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+/*Couleur lettre i*/
+span.i {
+  color: #7fba00;
+}
+
+/*Couleur lettre s*/
+span.s {
+  color: #f25022;
+}
+
+/*Couleur lettre m*/
+span.m {
+  color: #139ddd;
+}
+
+/*Couleur lettre a*/
+span.a {
+  color: #ffb900;
+}
+
+/*Couleur lettre à*/
+span.aa {
+  color: #7fba00;
+}
+
+/*Couleur lettre d*/
+span.d {
+  color: #f25022;
+}
+
+/*Couleur lettre i bis*/
+span.ii {
+  color: #139ddd;
+}
+
+/*Couleur lettre t*/
+span.t {
+  color: #ffb900;
+}
+
+/*Couleur fond*/
+body {
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-weight: normal;
+}
+
+h6 {
+  padding-bottom: 20px;
+}
+
+p {
+  color: #fff;
+  font-size: 1em;
+}
+/***********************************************/
+
+/***********************************************/
+/*              Cercle du jeu                  */
+/***********************************************/
+/*Rouge*/
+#quarter0 {
+  top: 0;
+  right: 0;
+  background-color: #f25022;
+  border-radius: 0 100% 0 0;
+  box-shadow: 0 0 0 1px #f25022 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 #c93a12, 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.15s;
+}
+#quarter0:hover,
+#quarter0:focus {
+  top: 0;
+  right: 0;
+  background-color: #ff451a;
+  border-radius: 0 100% 0 0;
+  box-shadow: 0 0 0 1px #ff3000 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 10px 0 0 #e62b00, 0 10px 0 1px rgba(0, 0, 0, 0.4),
+    0 10px 8px 1px rgba(0, 0, 0, 0.6);
+}
+#quarter0:active {
+  top: 0;
+  right: 0;
+  border-radius: 0 100% 0 0;
+  box-shadow: 0 0 0 1px #ff5c36 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #ff5c36;
+  transform: translateY(10px);
+}
+
+/*Vert*/
+#quarter1 {
+  top: 0;
+  left: 0;
+  background-color: #7fba00;
+  border-radius: 100% 0 0 0;
+  box-shadow: 0 0 0 1px #7fba00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 #638f05, 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.15s;
+}
+#quarter1:hover,
+qrter1:focus {
+  top: 0;
+  left: 0;
+  background-color: #8cc218;
+  border-radius: 100% 0 0 0;
+  box-shadow: 0 0 0 1px #8cc218 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 10px 0 0 #74a802, 0 10px 0 1px rgba(0, 0, 0, 0.4),
+    0 10px 8px 1px rgba(0, 0, 0, 0.6);
+}
+#quarter1:active {
+  border-radius: 100% 0 0 0;
+  box-shadow: 0 0 0 1px #a0ea00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #a0ea00;
+  transform: translateY(10px);
+}
+
+/*Jaune*/
+#quarter2 {
+  bottom: 0;
+  left: 0;
+  border-radius: 0% 0 0 100%;
+  background-color: #ffb900;
+  box-shadow: 0 0 0 1px #ffb900 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 #c28e07, 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.15s;
+}
+#quarter2:hover,
+#quarter2:focus {
+  bottom: 0;
+  left: 0;
+  background-color: #ffb900;
+  box-shadow: 0 0 0 1px #ffb900 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 #c28e07, 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+#quarter2:active {
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 0 0 1px #ffca3d inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #ffca3d;
+  transform: translateY(10px);
+}
+
+/*Bleu*/
+#quarter3 {
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 100% 0;
+  background-color: #00a4ef;
+  box-shadow: 0 0 0 1px #00a4ef inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 #0883bc, 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.15s;
+}
+#quarter3:hover,
+#quarter3:focus {
+  bottom: 0;
+  right: 0;
+  background-color: #139ddd;
+  box-shadow: 0 0 0 1px #139ddd inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 10px 0 0 #0c7cb0, 0 10px 0 1px rgba(0, 0, 0, 0.4),
+    0 10px 8px 1px rgba(0, 0, 0, 0.6);
+}
+#quarter3:active {
+  bottom: 0;
+  right: 0;
+  box-shadow: 0 0 0 1px #2bbcff inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #2bbcff;
+  transform: translateY(10px);
+}
+/***********************************************/
+
+.start-button {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+.compteur {
+  text-align: left;
+  font-family: "Holtwood One SC", serif;
+  color: #fff;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+  margin-left: 10vh;
+}
+
+.replay-button {
+  margin-top: -15%;
+  margin-right: 100px;
+  color: #fff;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+}
+
+/*****************************************/
+/*         Le centre noir du jeu         */
+/*****************************************/
+/*Rond noir*/
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: #000;
+  background-size: 100%;
+  border-radius: 100px;
+  background-repeat: no-repeat;
+}
+/*Image du rond noir*/
+.center img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  z-index: 1;
+}
+/***********************************************/
+
+/***********************************************/
+/*       Couleur pour le cercle du jeu         */
+/***********************************************/
+.conteneur-main {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.conteneur-coin {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.coinHG {
+  top: 0;
+  left: 0;
+  background-color: red;
+  border-radius: 100% 0 0 0;
+}
+
+.coinHD {
+  top: 0;
+  right: 0;
+  background-color: blue;
+  border-radius: 0 100% 0 0;
+}
+
+.coinBG {
+  bottom: 0;
+  left: 0;
+  background-color: orange;
+  border-radius: 0 0 0 100%;
+}
+
+.coinBD {
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  border-radius: 0 0 100% 0;
+}
+
+.imgcentre {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: black;
+  background-image: url("src/img/center.svg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 23%;
+  left: 25%;
+}
+/***********************************************/
